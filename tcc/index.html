@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript/javascript.js" defer> </script>
+</head>
+<body>
+
+<!-- Container header -->
+<div class="header_container"> 
+    <header class="navbar"> 
+        <!-- Icons -->
+        <div class="sidebar" id="sidebar" > 
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"> Perfil </a>
+            <a href="#"> Market Place </a>
+            <a href="#"> Notificação </a>
+            <a href="#"> Chat </a>
+            <a href="#"> Pesquisa </a>
+        </div>
+        <nav class="nav_menu"> 
+            <ul>
+                <li> 
+                    
+                    <a href=""> <img src="img/profile icon.png" alt="perfil" class="icon"> </a> 
+                </li>
+                <li>
+                     <a href=""> <img src="img/bell icon.png" alt="notificação" class="icon" > </a>  
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Pesquisa -->
+        <div class="pesquisa"> 
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Busque Por Novas Artes!" autocomplete="off" autocapitalize="On">
+         </div> 
+         <!-- Botão menu -->
+
+         <a href="#" class="toggle-button" id="toggle-button" onclick="openNav()"> 
+             <span class="bar"> </span>
+             <span class="bar"> </span>
+             <span class="bar"> </span>
+         </a>
+
+         <!-- Logo -->
+        <div class="logo"> <img src="img/logo_sem_titulo.svg" class="logo">  </div>
+    </header>
+</div>
+
+
+    <main>
+        <div class="posts">
+            <div post_com_imagem>
+                 
+
+            </div>
+        </div>
+    </main>  
+</body>
+</html>
