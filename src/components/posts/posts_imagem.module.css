@@ -1,0 +1,56 @@
+.item {
+  margin: 20px;
+  background-color:#EBE4F9;
+  box-shadow: 0 3px 6px black;
+}
+
+.image {
+  max-width: 38.75rem;
+  padding-top: 0.7rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image img {
+  max-width: 34.375rem;
+  height: auto;
+  margin-left: auto;
+}
+
+.icon {
+  opacity: 0.70;
+  height: 20px;
+}
+
+.content {
+  padding: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  
+}
+
+.content p{
+  margin: 5px;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: black;
+  margin: 5px;
+}
+
+.actions {  
+  width: 100%;
+  padding: 0.5rem;
+  text-align:left;
+}
+
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
+
